@@ -12,6 +12,16 @@ public class Queue
         head = new Node(addData, head);
     }
 
+    public void showList()
+    {
+        Node position = head;
+        while(position != null)
+        {
+            System.out.println(position.getData());
+            position = position.getNext();
+        }
+    }
+
 
 
     private class Node
