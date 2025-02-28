@@ -17,7 +17,7 @@ public class Queue
         Node position = head;
         while(position != null)
         {
-            System.out.println(position.getData());
+            System.out.print(position.getData() + " ");
             position = position.getNext();
         }
     }
