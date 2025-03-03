@@ -12,6 +12,28 @@ public class Queue
         head = new Node(addData, head);
     }
 
+    public void pop()
+    {
+        //remove the first item added
+            if (head == null)
+            {
+                System.out.println("Deleting from an empty list");
+                System.exit(0);
+            }
+            else if(amountOfNodes() > 1) {
+                Node position = head;
+                while (position.getNext().getNext() != null) {
+                    position = position.getNext();
+                }
+
+                position.next = null;
+            }
+            else
+            {
+                head = head.getNext();
+            }
+    }
+
     public int amountOfNodes()
     {
         int count = 0;

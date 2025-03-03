@@ -9,5 +9,21 @@ public class Main {
         q.push(5);
 
         q.showList();
+
+        System.out.println("\nRemoving one from the end ");
+        q.pop();
+        q.showList();
+
+        System.out.println();
+
+        q.pop();
+        q.pop();
+        q.pop();
+        q.pop();
+        q.pop();
+        q.pop();
+        q.pop();
+        q.pop();
+
     }
 }
