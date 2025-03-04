@@ -16,6 +16,7 @@ public class Main {
 
         System.out.println();
 
+        //testing to see that deleting from an empty list won't crash the system
         q.pop();
         q.pop();
         q.pop();

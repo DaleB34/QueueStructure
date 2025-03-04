@@ -18,7 +18,6 @@ public class Queue
             if (head == null)
             {
                 System.out.println("Deleting from an empty list");
-                System.exit(0);
             }
             else if(amountOfNodes() > 1) {
                 Node position = head;
