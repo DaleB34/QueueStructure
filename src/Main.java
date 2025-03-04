@@ -10,7 +10,7 @@ public class Main {
 
         q.showList();
 
-        System.out.println("\nRemoving one from the end ");
+        System.out.println("\nRemoving the first item ");
         q.pop();
         q.showList();
 
@@ -25,6 +25,41 @@ public class Main {
         q.pop();
         q.pop();
         q.pop();
+
+        Queue r = new Queue();
+        r.push(0);
+        r.push(1);
+        r.push(2);
+        r.push(3);
+        r.push(4);
+        r.push(5);
+        r.push(6);
+
+        System.out.println("\nFull List");
+        r.showList();
+        r.pop();
+        System.out.println("Removing from the start");
+        r.showList();
+        r.pop();
+        System.out.println("Removing from the start");
+        r.showList();
+        r.pop();
+        System.out.println("Removing from the start");
+        r.showList();
+        r.pop();
+        System.out.println("Removing from the start");
+        r.showList();
+        r.pop();
+        System.out.println("Removing from the start");
+        r.showList();
+        r.pop();
+        System.out.println("Removing from the start");
+        r.showList();
+        r.pop();
+        System.out.println("Removing from the start");
+        r.showList();
+        r.pop();
+        r.showList();
 
     }
 }
